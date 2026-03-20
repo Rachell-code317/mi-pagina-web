@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Ven a conocerme!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-glow: #00d4ff;
+            --secondary-glow: #9d00ff;
+            --text-color: #e0e0e0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
+            color: var(--text-color);
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Fondo de Estrellas Animado */
+        #stars-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\Nemuri Kayama - Midnight _ My hero academia Fanart.png');
+            animation: move-stars 100s linear infinite;
+        }
+
+        @keyframes move-stars {
+            from { background-position: 0 0; }
+            to { background-position: 10000px 5000px; }
+        }
+
+        .container{
+            max-width: 900px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            color: var(--primary-glow);
+            text-shadow: 0 0 20px var(--primary-glow);
+            margin-bottom: 30px;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .interest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .interest-item {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            padding: 15px;
+            border: 1px solid transparent;
+            transition: 0.3s;
+        }
+
+        .interest-item:hover {
+            border-color: var(--primary-glow);
+            box-shadow: 0 0 15px var(--primary-glow);
+        }
+
+        .interest-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .social-section {
+            margin-top: 60px;
+            padding: 20px;
+        }
+
+        .instagram-link {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .instagram-link:hover {
+            color: #f09433;
+            transform: scale(1.1);
+        }
+
+        .ig-icon {
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin: 10px auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="stars-container"></div>
+
+    <div class="oval-container">
+        <h1>¡Ven a conocerme!</h1>
+         </section>
+
+        <section class="profile-card">
+            <h2>Hola, soy Rachell!</h2>
+            <p><strong>Tengo 17</strong> años</p>
+            <p><strong>Sobre mí:</strong> Me considero una persona reservada y tímida, pero apasionada por las historias y mundos que descubro en mis hobbies.</p>
+        </section>
+
+        <section>
+            <h2 style="font-family: 'Orbitron';">Mis Intereses</h2>
+            <div class="interest-grid">
+                <div class="interest-item">
+                    <img src="c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\by Dana Terrace.png" alt="text=The Owl House"
+                        <p>The Owl House</p>
+                </div>
+                <div class="interest-item">
+                    <img src="c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\descargar (2).png" alt="text=Death Note"
+                    <p>Death Note</p>
+                </div>
+                <div class="interest-item">
+                    <img src="c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\My Hero Academia, Vol_ 42.png" alt="text=MHA"
+                    <p>My Hero Academia</p>
+                </div>
+                <div class="interest-item">
+                    <img src="c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\POSTER STOP ONLINE Hunter X Hunter - Manga_Anime TV Show Poster (Key Art - Running) (Size 24 x 36).png" alt="Hunter x Hunter">
+                    <p>Hunter x Hunter</p>
+                </div>
+                <div class="interest-item">
+                    <img src="c:\Users\User\AppData\Local\Packages\Microsoft.Paint_8wekyb3d8bbwe\TempState\descargar (3).png" ahttps://sl.bing.net/gzpcN21CcsSlt=text="Arcane">
+                    <p>Arcane</p>
+                </div>
+                 </section>
+
+        <footer class="social-section">
+            <p>Sigueme en</p>
+            <a href="https://www.instagram.com/"chelle.zyx class="instagram-link" target="chelle.zyx_">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="ig-icon">
+                <span>@chelle.zyx</span>
+                </section>
+            </a>
+        </footer>
+    </div>
+ </section>
+</body
